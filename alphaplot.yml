@@ -1,0 +1,13 @@
+app: alphaplot
+
+ingredients:
+  script:
+    - echo "1.011" > VERSION
+
+script:
+  - sed -i '/MimeType/d' ../usr/share/applications/alphaplot.desktop
+  - sed -i '/Path/d' ../usr/share/applications/alphaplot.desktop
+  - sed -i '/TerminalOptions/d' ../usr/share/applications/alphaplot.desktop
+  - cp -r ../usr/* usr/
+  - cp usr/share/applications/alphaplot.desktop .
+  - cp usr/share/icons/hicolor/scalable/apps/alphaplot.svg .
