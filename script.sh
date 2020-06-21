@@ -38,7 +38,7 @@ done
 
 # Download AlphaPlot 1.011
 wget https://github.com/narunlifescience/AlphaPlot/releases/download/1.011/alphaplot-1.011-alpha-release-x86_64.pkg.tar.xz
-tar -xf alphaplot-1.011-alpha-release-x86_64.pkg.tar.xz 
+tar -xf alphaplot-1.011-alpha-release-x86_64.pkg.tar.xz
 
 # Remove files (optional)
 removefiles=(
@@ -58,3 +58,4 @@ mkdir alphaplot && mv usr alphaplot/
 
 # Download pkg2appimage
 wget https://raw.githubusercontent.com/probonopd/AppImages/master/pkg2appimage
+chmod +x pkg2appimage
