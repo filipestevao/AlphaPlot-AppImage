@@ -2,7 +2,7 @@ app: alphaplot
 
 ingredients:
   script:
-    - echo "1.011" > VERSION
+    - echo "1.011-alpha-release" > VERSION
 
 script:
   - sed -i '/MimeType/d' ../usr/share/applications/alphaplot.desktop
