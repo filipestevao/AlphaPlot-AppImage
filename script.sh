@@ -6,6 +6,7 @@ echo "Press [Enter] to continue."
 read
 
 # You can choose another mirror at https://www.archlinux.org/mirrorlist/all/
+#arch_mirror=https://www.caco.ic.unicamp.br #Brazil
 arch_mirror=https://mirror.rackspace.com
 
 arch_core=(
@@ -23,6 +24,7 @@ arch_extra=(
   md4c-*.tar.zst
   gsl-*.tar.zst
   libxcb-*.tar.zst
+  libpng-*.pkg.tar.zst
 )
 
 # Download packages
