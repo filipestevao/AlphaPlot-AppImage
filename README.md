@@ -1,6 +1,10 @@
 # AlphaPlot AppImage
 
-AlphaPlot: https://alphaplot.sourceforge.io/ 
+**THIS REPOSITORY IS NO LONGER ACTIVELY MAINTAINED.**
+
+<a href='https://flathub.org/apps/details/io.github.narunlifescience.AlphaPlot'><img width='200' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
+
+AlphaPlot site: https://alphaplot.sourceforge.io/ 
 
 AlphaPlot Repository: https://github.com/narunlifescience/AlphaPlot
 
